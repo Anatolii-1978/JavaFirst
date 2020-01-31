@@ -3,30 +3,30 @@ import java.lang.reflect.Array;
 public class Task1 {
 
     static class Person {
-        String FullName;
-        String Position;
-        String Email;
-        String PhoneNumber;
-        int Salary;
-        int Age;
+        String fullName;
+        String position;
+        String email;
+        String phoneNumber;
+        int salary;
+        int age;
 
-        public Person(String FullName, String Position, String Email, String PhoneNumber, int Salary, int Age) {
-            this.FullName = FullName;
-            this.Position = Position;
-            this.Email = Email;
-            this.PhoneNumber = PhoneNumber;
-            this.Salary = Salary;
-            this.Age = Age;
+        public Person(String fullName, String position, String email, String phoneNumber, int salary, int age) {
+            this.fullName = fullName;
+            this.position = position;
+            this.email = email;
+            this.phoneNumber = phoneNumber;
+            this.salary = salary;
+            this.age = age;
 
         }
 
         public void info() {
-            System.out.println("FullName " + FullName + "; " + "Position " + Position + "; " + "Email " + Email + "; " +
-                      "PhoneNumber " + PhoneNumber + "; " + "Salary " + Salary + "; " + "Age " + Age);
+            System.out.println("FullName " + fullName + "; " + "Position " + position + "; " + "Email " + email + "; " +
+                      "PhoneNumber " + phoneNumber + "; " + "Salary " + salary + "; " + "Age " + age);
         }
 
         int getAge() {
-            return Age;
+            return age;
         }
 
 
